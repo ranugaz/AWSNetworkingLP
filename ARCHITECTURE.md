@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     Student[Student]
     LearningPlatform[AWS Networking Learning Platform]
