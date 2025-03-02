@@ -11,6 +11,7 @@ graph TD
 
 ## Container Diagram
 
+```mermaid
 graph TD
     U[User] -->|Uses| WA[Web Application]
     subgraph AWS Networking Learning Platform
