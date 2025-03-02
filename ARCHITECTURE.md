@@ -11,8 +11,6 @@ graph TD
 
 ## Container Diagram
 
-This diagram illustrates the main components of the learning platform.
-
 graph TD
     U[User] -->|Uses| WA[Web Application]
     subgraph AWS Networking Learning Platform
