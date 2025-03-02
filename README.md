@@ -1,6 +1,6 @@
-# AWSNetworkingLMS
+# AWSNetworkingLP
 
-# AWS Networking Services Learning Management Systems
+# AWS Networking Services Learning Plartform
 
 ## Projects Links
 
@@ -13,11 +13,11 @@ This structure provides a foundation for your GitHub project, including a system
 
 To complete the project setup:
 
-    Created a new repository on GitHub named "AWSNetworkingLMS".
+    Created a new repository on GitHub named "AWSNetworkingLP".
     Initialized it with a README.md file containing the content provided above.
-    Created two additional files: SPECIFICATION.md and ARCHITECTURE.md, and fill them with the content provided.
-    For the C4 diagrams, I will use tools like to create the diagrams and then insert them into the ARCHITECTURE.md file.
+    Created two additional files: SPECIFICATION.md and ARCHITECTURE.md.
+    For the C4 diagrams, I've use tools Mermaid tool to create the diagrams and then insert the code into the ARCHITECTURE.md file.
 
-This project structure provides a clear roadmap for developing an AWS Networking Services LMS, with room for expansion and refinement as I progress.
+This project structure provides a clear structure for developing an AWS Networking Learning Plartform, with room for expansion and refinement as I progress.
 
 
