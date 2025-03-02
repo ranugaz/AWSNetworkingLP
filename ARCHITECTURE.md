@@ -7,7 +7,7 @@ graph TD
     S -->|Provides| C[Course Content]
     S -->|Tracks| P[Progress]
 
-    Container Diagram:
+  #  Container Diagram:
 
 graph TD
     U[User] -->|Uses| WA[Web Application]
