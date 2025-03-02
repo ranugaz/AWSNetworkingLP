@@ -3,7 +3,6 @@
 ## Context Diagram
 This code shows the high-level interaction between the user (student) and the learning platform.
 
-```mermaid
 graph TD
     U[Student]-->|Uses| S[AWS Networking Learning Platform]
     S -->|Provides| C[Course Content]
@@ -21,7 +20,6 @@ graph TD
 ## Container Diagram
 This diagram illustrates the main components of the learning platform.
 
-```mermaid
 graph TD
     U[Student]-->|Uses| WA[Web Application]
     subgraph AWS Networking Learning Platform
@@ -49,7 +47,6 @@ graph TD
 
 This diagram shows the main components within the Backend Server.
 
-```mermaid
 graph TD
     subgraph Backend Server
     API[API Layer] --> AM[Auth Manager]
