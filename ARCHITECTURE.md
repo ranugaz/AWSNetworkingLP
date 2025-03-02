@@ -3,14 +3,14 @@
    # Context Diagram:
 
 graph TD
-    U[User] -->|Uses| S[AWS Networking Learning Platform]
+    U[Student] -->|Uses| S[AWS Networking Learning Platform]
     S -->|Provides| C[Course Content]
     S -->|Tracks| P[Progress]
 
   #  Container Diagram:
 
 graph TD
-    U[User] -->|Uses| WA[Web Application]
+    U[Student] -->|Uses| WA[Web Application]
     subgraph AWS Networking Learning Platform
     WA -->|API Calls| BE[Backend Server]
     BE -->|Reads/Writes| DB[(Database)]
