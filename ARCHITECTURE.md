@@ -8,3 +8,17 @@ graph TD
     U[User] -->|Uses| S[AWS Networking Learning Platform]
     S -->|Provides| C[Course Content]
     S -->|Tracks| P[Progress]
+
+## Container Diagram
+
+This diagram illustrates the main components of the learning platform.
+
+graph TD
+    U[User] -->|Uses| WA[Web Application]
+    subgraph AWS Networking Learning Platform
+    WA -->|API Calls| BE[Backend Server]
+    BE -->|Reads/Writes| DB[(Database)]
+    end
+    WA -->|Displays| C[Course Content]
+    BE -->|Manages| C
+    BE -->|Tracks| P[User Progress]
