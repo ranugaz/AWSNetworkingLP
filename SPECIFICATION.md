@@ -38,9 +38,6 @@ This project is feasible for individual development due to its focused nature on
 •⁠  ⁠Course completion status
 •⁠  ⁠Overall performance metrics
 
-2.6 Notification System
-•⁠  ⁠Receiving email notifications for course updates and deadlines
-
 ## 3. Non-Functional Requirements
 
 3.2 Scalability
@@ -56,7 +53,7 @@ This project is feasible for individual development due to its focused nature on
 ## 4. Constraints and Assumptions
 
 4.1 Constraints
-•⁠  ⁠Budget: Limited to personal resources and free-tier cloud services
+•⁠  ⁠Budget: Limited to free-tier cloud services
 •⁠  ⁠Platform: Web-based application
 
 4.2 Assumptions
