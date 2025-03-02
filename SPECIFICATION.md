@@ -11,7 +11,7 @@ AWS Networking Services Learning Platform
 Education Technology / Cloud Computing Education
 
 ### 1.3 Problem Statement
-There's a growing demand for professionals skilled in AWS networking services. This platform aims to provide a streamlined, student-focused learning experience for learning and deep dive on AWS networking concepts and practices.
+There's a growing demand for professionals skilled in AWS networking services. This platform aims to provide a streamlined, student-focused learning experience for learning AWS networking concepts and practices.
 
 ### 1.4 Individual Scope
 This project is feasible for individual development due to its focused nature on student interactions and core learning features.
