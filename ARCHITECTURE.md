@@ -1,9 +1,8 @@
 # AWS Networking Learning Platform - Architecture
 
 ## Context Diagram
-This diagram shows the high-level interaction between the user and the learning platform.
+This code shows the high-level interaction between the user (student) and the learning platform.
 
-```mermaid
 graph TD
     U[Student]-->|Uses| S[AWS Networking Learning Platform]
     S -->|Provides| C[Course Content]
@@ -18,8 +17,7 @@ graph TD
     P["<b>Progress</b>
     (Student's learning progress)"]
 
-Container Diagram
-
+## Container Diagram
 This diagram illustrates the main components of the learning platform.
 
 graph TD
@@ -45,7 +43,7 @@ graph TD
     P["<b>User Progress</b>
     (Student's course completion and quiz scores)"]
 
-Component Diagram
+## Component Diagram
 
 This diagram shows the main components within the Backend Server.
 
