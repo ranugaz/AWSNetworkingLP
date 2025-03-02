@@ -1,4 +1,3 @@
-```markdown
 # AWS Networking Services Learning Platform - Architecture
 
 ## 1. Context Diagram
