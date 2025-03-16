@@ -1,27 +1,49 @@
-```
-| Use Case ID | UC1 |
-|-------------|-----|
-| Description | Register Account |
-| Preconditions | User is not logged in and doesn't have an existing account |
-| Postconditions | New user account is created and stored in the system |
-| Basic Flow | 1. User selects "Register" option
-2. System displays registration form
-3. User enters required information (name, email, password)
-4. System validates input
-5. System creates account and sends verification email
-6. User verifies email
-7. System activates account |
-| Alternative Flows | - If email already exists, system notifies user and suggests login
-- If password doesn't meet requirements, system prompts for a new password |
+| Test Case ID | TC-F01 |
+|--------------|--------|
+| Requirement ID | F1.1 |
+| Description | Student Registration with Email Verification |
+| Steps | 1. Navigate to registration page
+2. Enter valid details
+3. Submit form
+4. Check email
+5. Click verification link |
+| Expected Result | Account created and verified |
+| Actual Result |  |
+| Status (Pass/Fail) |  |
 
-| Use Case ID | UC2 |
-|-------------|-----|
-| Description | Authenticate User |
-| Preconditions | User has a registered account |
-| Postconditions | User is logged in and granted appropriate access |
-| Basic Flow | 1. User enters username/email and password
-2. System validates credentials
-3. System grants access and redirects to dashboard |
-| Alternative Flows | - If credentials are invalid, system displays error and allows retry
-- If user forgets password, system offers password reset option |
-```
+| Test Case ID | TC-F02 |
+|--------------|--------|
+| Requirement ID | F2.1 |
+| Description | Searchable Course Catalog |
+| Steps | 1. Log in as student
+2. Navigate to course catalog
+3. Enter "AWS Networking" in search bar
+4. Click search |
+| Expected Result | Relevant AWS Networking courses displayed |
+| Actual Result |  |
+| Status (Pass/Fail) |  |
+
+| Test Case ID | TC-F03 |
+|--------------|--------|
+| Requirement ID | F3.2 |
+| Description | Support for Various Content Types |
+| Steps | 1. Log in as instructor
+2. Create new course module
+3. Upload text, video, and PDF content
+4. Save module
+5. View as student |
+| Expected Result | All content types load and display correctly |
+| Actual Result |  |
+| Status (Pass/Fail) |  |
+
+| Test Case ID | TC-F04 |
+|--------------|--------|
+| Requirement ID | F4.2 |
+| Description | Timed Quiz Session |
+| Steps | 1. Log in as student
+2. Start a timed quiz
+3. Answer questions
+4. Let timer expire |
+| Expected Result | Quiz auto-submits when time is up |
+| Actual Result |  |
+| Status (Pass/Fail) |  |
