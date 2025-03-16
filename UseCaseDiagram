@@ -1,0 +1,33 @@
+```mermaid
+graph TD
+    Student((Student))
+    Instructor((Instructor))
+    Admin((Admin))
+    AWS((AWS))
+    Employer((Employer))
+    System((System))
+
+    Student --> |Registers| UC1[Register Account]
+    Student --> |Logs in| UC2[Authenticate User]
+    Student --> |Browses Courses| UC3[View Course Catalog]
+    Student --> |Enrolls| UC4[Enroll in Course]
+    Student --> |Accesses Content| UC5[Access Course Material]
+    Student --> |Takes Quiz| UC6[Complete Assessment]
+    Student --> |Tracks Progress| UC7[View Progress Dashboard]
+    Student --> |Communicates| UC8[Participate in Discussion Forum]
+
+    Instructor --> UC2
+    Instructor --> |Creates Content| UC9[Manage Course Content]
+    Instructor --> |Reviews| UC10[Review Student Progress]
+
+    Admin --> UC2
+    Admin --> |Manages Users| UC11[Manage User Accounts]
+    Admin --> |Monitors| UC12[Monitor System Performance]
+
+    AWS --> |Updates| UC13[Update AWS Service Information]
+
+    Employer --> |Views| UC14[View Graduate Profiles]
+
+    System --> |Generates| UC15[Generate Completion Certificate]
+    System --> |Sends| UC16[Send Notifications]
+```
