@@ -1,5 +1,3 @@
-I apologize for the confusion. You're right, we need a cleaner and clearer format. Let's use a simpler table structure that's less likely to break. Here's a format that should work well on GitHub:
-
 ```
 | Use Case ID | UC1 |
 |-------------|-----|
@@ -27,5 +25,3 @@ I apologize for the confusion. You're right, we need a cleaner and clearer forma
 | Alternative Flows | - If credentials are invalid, system displays error and allows retry
 - If user forgets password, system offers password reset option |
 ```
-
-This format uses separate tables for each use case, which should be much easier to manage and less prone to breaking. When you commit this to GitHub, each use case will appear as a distinct, well-formatted table. You can continue this pattern for all your use cases, creating a new table for each one.
