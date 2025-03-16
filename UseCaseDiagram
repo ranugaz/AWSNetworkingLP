@@ -4,7 +4,6 @@ graph TD
     Instructor((Instructor))
     Admin((Admin))
     AWS((AWS))
-    Employer((Employer))
     System((System))
 
     Student --> |Registers| UC1[Register Account]
@@ -26,8 +25,6 @@ graph TD
 
     AWS --> |Updates| UC13[Update AWS Service Information]
 
-    Employer --> |Views| UC14[View Graduate Profiles]
-
-    System --> |Generates| UC15[Generate Completion Certificate]
-    System --> |Sends| UC16[Send Notifications]
+    System --> |Generates| UC14[Generate Completion Certificate]
+    System --> |Sends| UC15[Send Notifications]
 ```
