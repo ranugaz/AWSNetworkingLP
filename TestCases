@@ -1,4 +1,31 @@
-| Use Case ID | Description | Preconditions | Postconditions | Basic Flow | Alternative Flows |
-|-------------|-------------|---------------|----------------|------------|-------------------|
-| UC1 | Register Account | User is not logged in and doesn't have an existing account | New user account is created and stored in the system | 1. User selects "Register" option<br>2. System displays registration form<br>3. User enters required information (name, email, password)<br>4. System validates input<br>5. System creates account and sends verification email<br>6. User verifies email<br>7. System activates account | - If email already exists, system notifies user and suggests login<br>- If password doesn't meet requirements, system prompts for a new password |
-| UC2 | Authenticate User | User has a registered account | User is logged in and granted appropriate access | 1. User enters username/email and password<br>2. System validates credentials<br>3. System grants access and redirects to dashboard | - If credentials are invalid, system displays error and allows retry<br>- If user forgets password, system offers password reset option |
+I apologize for the confusion. You're right, we need a cleaner and clearer format. Let's use a simpler table structure that's less likely to break. Here's a format that should work well on GitHub:
+
+```
+| Use Case ID | UC1 |
+|-------------|-----|
+| Description | Register Account |
+| Preconditions | User is not logged in and doesn't have an existing account |
+| Postconditions | New user account is created and stored in the system |
+| Basic Flow | 1. User selects "Register" option
+2. System displays registration form
+3. User enters required information (name, email, password)
+4. System validates input
+5. System creates account and sends verification email
+6. User verifies email
+7. System activates account |
+| Alternative Flows | - If email already exists, system notifies user and suggests login
+- If password doesn't meet requirements, system prompts for a new password |
+
+| Use Case ID | UC2 |
+|-------------|-----|
+| Description | Authenticate User |
+| Preconditions | User has a registered account |
+| Postconditions | User is logged in and granted appropriate access |
+| Basic Flow | 1. User enters username/email and password
+2. System validates credentials
+3. System grants access and redirects to dashboard |
+| Alternative Flows | - If credentials are invalid, system displays error and allows retry
+- If user forgets password, system offers password reset option |
+```
+
+This format uses separate tables for each use case, which should be much easier to manage and less prone to breaking. When you commit this to GitHub, each use case will appear as a distinct, well-formatted table. You can continue this pattern for all your use cases, creating a new table for each one.
