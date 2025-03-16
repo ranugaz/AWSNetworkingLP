@@ -16,7 +16,7 @@ Description: Allows new users to create an account on the AWS Networking Learnin
     If email already exists, system notifies user and suggests login.
     If password doesn't meet requirements, system prompts for a new password.
 
-   2. Authenticate User (UC2)
+ 2. Authenticate User (UC2)
 
 Description: Verifies user credentials for system access. Preconditions: User has a registered account. Postconditions: User is logged in and granted appropriate access. Basic Flow:
 
