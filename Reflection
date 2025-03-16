@@ -25,7 +25,13 @@ In developing the System Requirements Document (SRD) for the AWS Networking Serv
 **Challenge:** The need for a scalable platform conflicts with the desire for personalized learning experiences.
 
 **Strategy:** Utilize AI and machine learning algorithms to provide personalized recommendations and learning paths within a scalable infrastructure.
+###########################################
 
+Assignment 5 Reflections:
+
+- Experienceing test cases for the AWS Networking Services Learning Platform presented several challenges. The process of translating stakeholder requirements into detailed use cases. 
+- Capturing Non-Functional Requirements: While functional requirements easily translated into use cases, incorporating non-functional requirements such as performance, security, and scalability proved more challenging. 
+- I find it challenging to create tables formarts, when trying to modify it, it breaks. 
 ## Conclusion
 
 Balancing diverse stakeholder needs in the AWS Networking Services Learning Platform has been challenging. However, by adopting flexible strategies, prioritizing effectively, I can create a platform that addresses core needs while remaining adaptable to future changes and requirements.
