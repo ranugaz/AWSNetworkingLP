@@ -1,64 +1,18 @@
-**Stakeholders:**
+Stakeholders:
 
     Students (Primary users)
     Course Instructors/Content Creators
     Platform Administrators
     AWS (as the subject matter)
+    Employers in the AWS networking field
 
-**Stakeholder Analysis:**
 
-Stakeholder: Students
-Role: Primary users of the platform
-Key Concerns:
-- Quality of learning content
-- Ease of use
-- Progress tracking
-- Practical skills acquisition
-Pain Points:
-- Difficulty finding focused AWS networking courses
-- Lack of hands-on practice
-Success Metrics:
-- Course completion rates
-- Quiz scores
-- Time to complete courses
+Stakeholder Analysis Table.
 
-Stakeholder: Course Instructors/Content Creators
-Role: Develop and maintain course content
-Key Concerns:
-- Content creation tools
-- Student engagement
-- Course analytics
-Pain Points:
-- Time-consuming content updates
-- Limited interaction with students
-- Lack of feedback on course effectiveness
-Success Metrics:
-- Student enrollment numbers
-- Content update frequency
-
-Stakeholder: Platform Administrators
-Role: Manage and maintain the platform
-Key Concerns:
-- System performance
-- User management
-- Security
-- Scalability
-Pain Points:
-- Difficulty in managing user roles
-- Challenges in monitoring system health
-- Security vulnerabilities
-Success Metrics:
-- System uptime
-- User growth rate
-
-Stakeholder: AWS
-Role: Subject matter and potential partner
-Key Concerns:
-- Accurate representation of AWS services
-- Platform alignment with AWS best practices
-Pain Points:
-- Outdated content on third-party platforms
-- Misrepresentation of AWS services
-Success Metrics:
-- Number of students transitioning to AWS certifications
-- Accuracy of platform content
+| Stakeholder | Role | Key Concerns | Pain Points | Success Metrics |
+|-------------|------|--------------|-------------|-----------------|
+| Students | Primary users of the platform | - Quality of learning content<br>- Ease of use<br>- Progress tracking<br>- Practical skills acquisition | - Difficulty finding focused AWS networking courses<br>- Lack of hands-on practice<br>- Unclear learning paths | - Course completion rates<br>- Quiz scores<br>- User satisfaction ratings<br>- Time to complete courses |
+| Course Instructors/ Content Creators | Develop and maintain course content | - Content creation tools<br>- Student engagement<br>- Course analytics | - Time-consuming content updates<br>- Limited interaction with students<br>- Lack of feedback on course effectiveness | - Student enrollment numbers<br>- Course ratings<br>- Content update frequency |
+| Platform Administrators | Manage and maintain the platform | - System performance<br>- User management<br>- Security<br>- Scalability | - Difficulty in managing user roles<br>- Challenges in monitoring system health<br>- Security vulnerabilities | - System uptime<br>- User growth rate<br>- Number of reported issues |
+| AWS | Subject matter and potential partner | - Accurate representation of AWS services<br>- Platform alignment with AWS best practices | - Outdated content on third-party platforms<br>- Misrepresentation of AWS services | - Number of students transitioning to AWS certifications<br>- Accuracy of platform content |
+| Employers in AWS networking field | Beneficiaries of skilled graduates | - Practical skills of graduates<br>- Alignment with industry needs | - Skills gap in new hires<br>- Rapidly evolving technology landscape | - Hiring rates of platform graduates<br>- On-job performance of hired graduates |
