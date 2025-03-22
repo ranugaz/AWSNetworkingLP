@@ -1,7 +1,7 @@
 
 The use case specifications provides a detailed overview of key functionalities in the AWS Networking Learning Platform, covering user management, course interactions, content management, and system administration.  
 
-1. **Register Account (UC1)
+1. ** Register Account (UC1)
 
 Description: Allows new users to create an account on the AWS Networking Learning Platform. Preconditions: User is not logged in and doesn't have an existing account. Postconditions: New user account is created and stored in the system. Basic Flow:
 
