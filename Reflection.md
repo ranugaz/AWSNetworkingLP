@@ -27,11 +27,30 @@ In developing the System Requirements Document (SRD) for the AWS Networking Serv
 **Strategy:** Utilize AI and machine learning algorithms to provide personalized recommendations and learning paths within a scalable infrastructure.
 ###########################################
 
-Assignment 5 Reflections:
+**Assignment 5 Reflections:**
 
 - Experienceing test cases for the AWS Networking Services Learning Platform presented several challenges. The process of translating stakeholder requirements into detailed use cases. 
 - Capturing Non-Functional Requirements: While functional requirements easily translated into use cases, incorporating non-functional requirements such as performance, security, and scalability proved more challenging. 
 - I find it challenging to create tables format, when trying to modify it, it breaks. 
+
+###########################################
+
+**Assignment 6 Reflections:**
+
+*Reflection: Challenges in Agile Planning for the AWS Networking Learning Platform*
+
+As the sole stakeholder in planning the AWS Networking Learning Platform, I faced several internal challenges:
+
+Prioritization Struggles: Balancing the desire for comprehensive features with the need for a focused MVP was challenging. 
+
+Estimation Uncertainties: Without team input or past references, I constantly second-guessed my effort estimates. This was particularly evident with complex tasks like implementing the content management system.
+
+Aligning with Agile Principles: Adapting to Agile's focus on flexibility and iterative development was uncomfortable. I resisted leaving some features undefined and had to consciously avoid over-specifying user stories and tasks.
+
+Short-term vs. Long-term Vision: Balancing immediate sprint goals with the platform's long-term vision led to was quite challenging. Decisions about including foundational elements for future features in early sprints were particularly challenging.
+
 ## Conclusion
 
 Balancing diverse stakeholder needs in the AWS Networking Services Learning Platform has been challenging. However, by adopting flexible strategies, prioritizing effectively, I can create a platform that addresses core needs while remaining adaptable to future changes and requirements.
+
+overall, despite the challenges, it was quite a great learning experience about using agile.
