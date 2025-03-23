@@ -2,6 +2,13 @@
 
 # AWS Networking Services Learning Plartform
 
+# Project Title
+AWS Networking Services Learning Platform
+
+# Project goal
+This Learning Plartform is designed to provide a focused, student system for learning AWS Networking Services. The Plartform aims to offer course access, content delivery, assesments and progress tracking to enhance the learning experience for students interested in AWS Networking.
+
+
 ## Projects Links
 
 - [ System Specification] (SPECIFICATION.md)
