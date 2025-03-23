@@ -77,7 +77,7 @@ Description: Allows students to take quizzes or exams within a course. Precondit
     If time limit is reached, system auto-submits assessment.
     If student loses connection, system saves progress for later continuation.
 
-7. Manage Course Content (UC9)
+7. Manage Course Content (UC7)
 
 Description: Enables instructors to create, edit, and organize course materials. Preconditions: User is logged in as an instructor. Postconditions: Course content is updated in the system. Basic Flow:
 
@@ -91,7 +91,7 @@ Description: Enables instructors to create, edit, and organize course materials.
     If content upload fails, system retries or prompts for different format.
     If unsaved changes exist, system prompts to save before exiting.
 
- 8.   Monitor System Performance (UC12)
+ 8.   Monitor System Performance (UC8)
 
 Description: Allows admins to view and analyze system metrics. Preconditions: User is logged in as an admin. Postconditions: Admin has viewed current system performance data. Basic Flow:
 
