@@ -81,7 +81,7 @@ We use a GitHub Project Board to track the progress of our user stories. Our boa
 Files:
 
 - Template_Analysis.md
-- A screenshot of your Kanban board
+- A screenshot of Kanban board, the file named "Custom Kanban board.png".
 - Kanban_Board_Explanation.md
 - Reflection.md (Updated)
 
