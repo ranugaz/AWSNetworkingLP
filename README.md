@@ -51,3 +51,37 @@ Files:
 - Product_Backlog.md
 - Sprint_Plan.md
 - Reflection.md (Updated)
+
+Assignment 7: GitHub Project Templates and Kanban Board Implementation Objective Analyze GitHub’s
+
+Compared github project templates. Justified for choosing automated Kanban template. Have customized the template to add new columns.
+
+## Kanban Board Customization
+
+Our Kanban board has been customized to better suit the needs of the AWS Networking Services Learning Platform project:
+
+1. **Testing Column**: Added to clearly separate tasks that are ready for or undergoing Quality Assurance. This ensures that our learning content and features meet high-quality standards before being marked as complete.
+
+2. **Blocked Column**: Introduced to highlight tasks facing impediments or external dependencies. This helps in quickly identifying and addressing bottlenecks in our development process, crucial for maintaining the smooth progression of our learning platform development.
+
+These customizations allow for better visualization of our workflow, ensuring that testing is a distinct phase and that any blocked items are immediately visible to the team. This supports our goal of delivering a high-quality, reliable learning experience for AWS Networking Services.
+
+## Kanban Board
+
+We use a GitHub Project Board to track the progress of our user stories. Our board is structured as follows:
+
+- **Backlog**: All user stories that are not yet ready for development.
+- **Ready**: User stories that are fully defined and ready to be worked on.
+- **In Progress**: User stories currently being developed.
+- **In Review**: User stories that are complete and awaiting code review.
+- **Testing**: User stories undergoing QA.
+- **Blocked**: User stories that cannot proceed due to external factors.
+- **Done**: Completed user stories.
+
+Files:
+
+- Template_Analysis.md
+- A screenshot of your Kanban board
+- Kanban_Board_Explanation.md
+- Reflection.md (Updated)
+
