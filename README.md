@@ -42,7 +42,7 @@ Files:
 - TestCases.md
 - Reflection (Updated)
 
-Assignment 5:
+Assignment 6:
 Applied Agile methodology by translating system requirements and use cases into user stories, creating a prioritized product backlog, and planning an initial sprint.
 
 Files:
