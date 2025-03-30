@@ -18,13 +18,13 @@ This Learning Plartform is designed to provide a focused, student system for lea
 
 To complete the project setup:
 
-Assignment 3:
+ **Assignment 3:**
     Created a new repository on GitHub named "AWSNetworkingLP".
     Initialized it with a README.md file.
     Created two additional files: SPECIFICATION.md and ARCHITECTURE.md.
     For the C4 diagrams, I've used Mermaid tool to create the diagrams and then insert the code into the ARCHITECTURE.md file.
 
-Assignment 4:
+ **Assignment 4:**
 
 Done stakeholder analysis and define detailed functional/nonfunctional requirements for AWS Networking Learning Plartform.
 
@@ -33,7 +33,7 @@ Files:
 - System-Requirements-Document.md
 - Reflection (Updated)
 
-Assignment 5:
+ **Assignment 5:**
 Translated stakeholder and system requirements into use case diagrams, detailed use case specifications, and test cases to validate system behavior.
 
 Files:
@@ -42,7 +42,7 @@ Files:
 - TestCases.md
 - Reflection (Updated)
 
-Assignment 6:
+ **Assignment 6:**
 Applied Agile methodology by translating system requirements and use cases into user stories, creating a prioritized product backlog, and planning an initial sprint.
 
 Files:
@@ -52,7 +52,7 @@ Files:
 - Sprint_Plan.md
 - Reflection.md (Updated)
 
-Assignment 7: GitHub Project Templates and Kanban Board Implementation Objective Analyze GitHub’s
+ **Assignment 7:** GitHub Project Templates and Kanban Board Implementation Objective Analyze GitHub’s
 
 Compared github project templates. Justified for choosing automated Kanban template. Have customized the template to add new columns.
 
