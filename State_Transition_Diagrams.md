@@ -2,6 +2,7 @@
 
 # User Account #
 
+```mermaid
 stateDiagram-v2
     [*] --> Unverified: User Registers
     Unverified --> Active: Email Verified
@@ -10,6 +11,7 @@ stateDiagram-v2
     Active --> Inactive: User Inactivity
     Inactive --> Active: User Login
     Active --> [*]: Account Deleted
+```
 
 # Course #
 
