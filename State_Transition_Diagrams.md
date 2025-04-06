@@ -15,6 +15,7 @@ stateDiagram-v2
 
 # Course #
 
+```mermaid
 stateDiagram-v2
     [*] --> Draft: Instructor Creates Course
     Draft --> UnderReview: Submitted for Review
@@ -23,9 +24,11 @@ stateDiagram-v2
     Published --> Archived: Course Outdated
     Archived --> Draft: Update Initiated
     Published --> [*]: Course Deleted
+```
 
 # Enrollment #
 
+```mermaid
 stateDiagram-v2
     [*] --> Pending: Student Enrolls
     Pending --> Active: Payment Confirmed
@@ -34,9 +37,11 @@ stateDiagram-v2
     Active --> Dropped: Student Withdraws
     Completed --> [*]
     Dropped --> [*]
+```
 
 # Lesson #
 
+```mermaid
 stateDiagram-v2
     [*] --> InPreparation: Lesson Created
     InPreparation --> ReadyForReview: Content Added
@@ -45,9 +50,11 @@ stateDiagram-v2
     Published --> Deprecated: Content Outdated
     Deprecated --> InPreparation: Update Initiated
     Published --> [*]: Lesson Removed
+```
 
 # Quiz #
 
+```mermaid
 stateDiagram-v2
     [*] --> Draft: Quiz Created
     Draft --> Active: Published
@@ -57,8 +64,11 @@ stateDiagram-v2
     Completed --> Graded: Auto-Graded
     Graded --> [*]
     Abandoned --> [*]
+```
 
 # Certificate #
+
+```mermaid
 
 stateDiagram-v2
     [*] --> Pending: Course Completed
@@ -67,5 +77,5 @@ stateDiagram-v2
     Issued --> Verified: Employer Checks
     Verified --> Expired: Time Limit Reached
     Expired --> [*]
-
+```
 
