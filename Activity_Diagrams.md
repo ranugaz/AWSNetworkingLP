@@ -1,5 +1,6 @@
 ## User Registration Workflow ##
 
+```mermaid
 graph TD
     A[Start] --> B[User Enters Registration Details]
     B --> C{Validate Input}
@@ -15,9 +16,11 @@ graph TD
     G --> K[Create User Profile]
     K --> L[End]
     J --> L
+```
 
 ## Course Enrollment Workflow ##
 
+```mermaid
 graph TD
     A[Start] --> B[Student Browses Course Catalog]
     B --> C[Student Selects Course]
@@ -36,10 +39,11 @@ graph TD
     L --> M[Send Confirmation Email]
     M --> N[Update Student Records]
     N --> O[End]
-
+```
 
    ## Content Creation and Publishing Workflow ##
 
+```mermaid
 graph TD
     A[Start] --> B[Instructor Creates Course Outline]
     B --> C[Add Lesson Content]
@@ -56,9 +60,11 @@ graph TD
     J --> L[Update Course Catalog]
     L --> M[Notify Subscribed Students]
     M --> N[End]
+```
 
 ## Quiz Taking and Grading Workflow ##
 
+```mermaid
 graph TD
     A[Start] --> B[Student Initiates Quiz]
     B --> C[System Presents Questions]
@@ -80,9 +86,11 @@ graph TD
     P -->|No| Q[End]
     L --> Q
     O --> Q
+```
 
- ## Course Progress Tracking Workflow ##
+## Course Progress Tracking Workflow ##
 
+```mermaid
 graph TD
     A[Start] --> B[Student Accesses Course]
     B --> C[System Loads Progress Data]
@@ -103,9 +111,11 @@ graph TD
     N --> P[Notify of Remaining Tasks]
     O --> Q[End]
     P --> Q
+```
 
 ## Content Update and Version Control Workflow ##
 
+```mermaid
 graph TD
     A[Start] --> B[Student Completes Assignment]
     B --> C[Submit for Peer Review]
@@ -126,9 +136,11 @@ graph TD
     P --> Q[Instructor Moderates Discussion]
     Q --> R[Close Discussion After Time Limit]
     R --> S[End]
+```
 
 ##  Peer Review and Discussion Workflow  ##
 
+```mermaid
 graph TD
     A[Start] --> B[Student Completes Assignment]
     B --> C[Submit for Peer Review]
@@ -149,4 +161,5 @@ graph TD
     P --> Q[Instructor Moderates Discussion]
     Q --> R[Close Discussion After Time Limit]
     R --> S[End]
+```
 
