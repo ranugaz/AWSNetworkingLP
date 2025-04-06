@@ -49,7 +49,7 @@
 
 ## Quiz ##
 
-Key States: Draft, Active, InProgress, Completed, Graded, Abandoned
+    Key States: Draft, Active, InProgress, Completed, Graded, Abandoned
     Key Transitions:
         Quizzes are drafted and activated
         Students progress through InProgress to Completed
