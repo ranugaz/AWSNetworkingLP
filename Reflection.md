@@ -96,7 +96,7 @@ Short-term vs. Long-term Vision: Balancing immediate sprint goals with the platf
 
 While each tool has its strengths, GitHub Projects provides the right mix of features, integration, and ease of use for our AWS Networking Services Learning Platform project. Its direct connection to our code repository and familiar interface for developers made it the most suitable choice, despite some limitations in advanced customization compared to specialized project management tools.
 
-**Assignment 7 Reflections:**
+**Assignment 8 Reflections:**
 
 In developing the state transition and activity diagrams for the AWS Networking Services Learning Platform, I encountered several challenges. Balancing the level of detail with overall readability was crucial, requiring careful consideration of which states and actions to include without overwhelming the diagrams. Aligning these diagrams with Agile user stories presented its own difficulties, as I needed to bridge the gap between high-level user requirements and detailed system behaviors. Despite the challenges, creating these diagrams significantly improved my understanding of the system's architecture and helped ensure that my  design aligned closely with both functional requirements and user needs.
 
