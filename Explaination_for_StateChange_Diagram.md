@@ -1,37 +1,37 @@
 # User Account #
 
-Key States: Unverified, Active, Suspended, Inactive
+    Key States: Unverified, Active, Suspended, Inactive
     Key Transitions:
         Registration triggers Unverified state
         Email verification activates the account
         Admin can suspend and reactivate accounts
         Inactivity leads to Inactive state
-Mapping to Functional Requirements:
+     Mapping to Functional Requirements:
         Addresses FR 1.1 (Student registration with email verification)
         Supports FR 1.2 (Secure login/logout functionality)
         Aligns with FR 1.5 (Role-based access control)
 
 ## Course ##
 
-Key States: Draft, UnderReview, Published, Archived
+    Key States: Draft, UnderReview, Published, Archived
     Key Transitions:
         Course creation starts in Draft
         Review process before publishing
         Published courses can be archived or updated
 
-Mapping to Functional Requirements:
+    Mapping to Functional Requirements:
         Supports FR 2.1 (Searchable course catalog)
         Aligns with FR 2.2 (Course details page)
         Addresses aspects of FR 3.1 (Modular course structure)
 
 ## Enrollment ##
 
-Key States: Pending, Active, Completed, Dropped
+    Key States: Pending, Active, Completed, Dropped
     Key Transitions:
         Enrollment starts as Pending
         Becomes Active after payment
         Can be Completed or Dropped
-Mapping to Functional Requirements:
+    Mapping to Functional Requirements:
         Directly addresses FR 2.3 (Course enrollment and unenrollment functionality)
         Supports FR 2.4 (Access control for enrolled courses)
         Relates to FR 5.1 (Course completion percentage)
