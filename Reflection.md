@@ -26,7 +26,6 @@ In developing the System Requirements Document (SRD) for the AWS Networking Serv
 
 **Strategy:** Utilize AI and machine learning algorithms to provide personalized recommendations and learning paths within a scalable infrastructure.
 
-###########################################
 
 **Assignment 5 Reflections:**
 
@@ -34,7 +33,6 @@ In developing the System Requirements Document (SRD) for the AWS Networking Serv
 - Capturing Non-Functional Requirements: While functional requirements easily translated into use cases, incorporating non-functional requirements such as performance, security, and scalability proved more challenging. 
 - I find it challenging to create tables format, when trying to modify it, it breaks. 
 
-###########################################
 
 **Assignment 6 Reflections:**
 
@@ -51,7 +49,6 @@ Aligning with Agile Principles: Adapting to Agile's focus on flexibility and ite
 Short-term vs. Long-term Vision: Balancing immediate sprint goals with the platform's long-term vision led to was quite challenging. Decisions about including foundational elements for future features in early sprints were particularly challenging.
 
 **Assignment 7 Reflections:**
-## Reflection
 
 ### Challenges in Selecting and Customizing the Template
 
@@ -98,6 +95,31 @@ Short-term vs. Long-term Vision: Balancing immediate sprint goals with the platf
    - Jira would provide more advanced features, but its complexity might be overkill for our current project size and could slow down our agile processes.
 
 While each tool has its strengths, GitHub Projects provides the right mix of features, integration, and ease of use for our AWS Networking Services Learning Platform project. Its direct connection to our code repository and familiar interface for developers made it the most suitable choice, despite some limitations in advanced customization compared to specialized project management tools.
+
+**Assignment 7 Reflections:**
+
+In developing the state transition and activity diagrams for the AWS Networking Services Learning Platform, I encountered several challenges. Balancing the level of detail with overall readability was crucial, requiring careful consideration of which states and actions to include without overwhelming the diagrams. Aligning these diagrams with Agile user stories presented its own difficulties, as I needed to bridge the gap between high-level user requirements and detailed system behaviors. Despite the challenges, creating these diagrams significantly improved my understanding of the system's architecture and helped ensure that my  design aligned closely with both functional requirements and user needs.
+
+## Balancing Detail vs. Readability: ##
+
+    Challenge: Determining the right level of detail to include in both state and activity diagrams without overwhelming the viewer or losing critical information.
+    Example: In the Course Progress Tracking workflow, I could have broken down "Student Engages with Content" into multiple sub-actions for each content type, but this might have made the diagram too complex. However, I tried to keep the main flow simple.
+
+    Challenge: Some objects, like User Accounts, have multiple attributes that could be considered states (e.g., verified, logged in, role).
+    Example: In the User Account state diagram, I focused on primary states like "Active" and "Suspended" rather than creating separate states for every possible combination of attributes.
+
+## Comparison of State Diagrams vs. Activity Diagrams: ##
+
+    State Diagrams: Focus on the lifecycle of a single object or entity (e.g., User Account, Course).
+    Activity Diagrams: Represent the flow of actions in a process or use case (e.g., User Registration Workflow).
+
+    State Diagrams: Object-centric, showing how an object's state changes in response to events.
+    Activity Diagrams: Process-centric, showing the sequence of activities and decisions in a workflow.
+
+   State Diagrams: Useful for modeling complex objects like User Accounts, Courses, and Content Items, which have distinct states and transitions throughout their lifecycle in the learning platform.
+   Activity Diagrams: Ideal for modeling workflows like Course Enrollment, Quiz Taking, and Content Creation, which involve multiple steps, decisions, and potentially multiple actors.
+
+In the context of  AWS Networking Services Learning Platform, both types of diagrams complement each other. State diagrams help in understanding the behavior of key entities in the system, while activity diagrams are crucial for mapping out the complex processes that make up the core functionality of the learning platform. 
 
 ## Conclusion
 
