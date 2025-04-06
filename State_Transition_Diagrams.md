@@ -75,7 +75,6 @@ stateDiagram-v2
     Pending --> Generated: Certificate Created
     Generated --> Issued: Sent to Student
     Issued --> Verified: Employer Checks
-    Verified --> Expired: Time Limit Reached
-    Expired --> [*]
+
 ```
 
