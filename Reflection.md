@@ -116,8 +116,8 @@ In developing the state transition and activity diagrams for the AWS Networking 
     State Diagrams: Object-centric, showing how an object's state changes in response to events.
     Activity Diagrams: Process-centric, showing the sequence of activities and decisions in a workflow.
 
-   State Diagrams: Useful for modeling complex objects like User Accounts, Courses, and Content Items, which have distinct states and transitions throughout their lifecycle in the learning platform.
-   Activity Diagrams: Ideal for modeling workflows like Course Enrollment, Quiz Taking, and Content Creation, which involve multiple steps, decisions, and potentially multiple actors.
+    State Diagrams: Useful for modeling complex objects like User Accounts, Courses, and Content Items, which have distinct states and transitions throughout their lifecycle in the learning platform.
+    Activity Diagrams: Ideal for modeling workflows like Course Enrollment, Quiz Taking, and Content Creation, which involve multiple steps, decisions, and potentially multiple actors.
 
 In the context of  AWS Networking Services Learning Platform, both types of diagrams complement each other. State diagrams help in understanding the behavior of key entities in the system, while activity diagrams are crucial for mapping out the complex processes that make up the core functionality of the learning platform. 
 
