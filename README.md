@@ -8,12 +8,6 @@ AWS Networking Services Learning Platform
 # Project goal
 This Learning Plartform is designed to provide a focused, student system for learning AWS Networking Services. The Plartform aims to offer course access, content delivery, assesments and progress tracking to enhance the learning experience for students interested in AWS Networking.
 
-
-## Projects Links
-
-- [ System Specification] (SPECIFICATION.md)
-- [Architecture Documentation] (ARCHITECTURE.md)
-
 # Project Structure
 
 To complete the project setup:
@@ -83,5 +77,21 @@ Files:
 - Template_Analysis.md
 - A screenshot of Kanban board, the file named "Custom Kanban board.png".
 - Kanban_Board_Explanation.md
+- Reflection.md (Updated)
+
+ **Assignment 8:** Object State Modeling and Activity Workflow Modeling Objective
+
+Files:
+- State_Transition_Diagrams.md
+- Activity_Diagrams.md
+- Explaination_for_StateChange_&_Activity_Diagram.md
+- Reflection.md (Updated)
+
+ **Assignment 9:** Object State Modeling and Activity Workflow Modeling Objective
+
+Files:
+
+- domain_model_description.md
+- Class_Diagram.md
 - Reflection.md (Updated)
 
