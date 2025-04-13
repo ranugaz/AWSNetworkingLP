@@ -1,4 +1,4 @@
-'''mermaid
+```mermaid
 classDiagram
     class User {
         -userId: String
@@ -130,4 +130,4 @@ classDiagram
     User "*" -- "1" UserRole : has
     Content "*" -- "1" ContentType : is of
     Progress "1" -- "1" Course : tracks
-'''
+```
