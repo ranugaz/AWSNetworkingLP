@@ -95,3 +95,31 @@ Files:
 - Class_Diagram.md
 - Reflection.md (Updated)
 
+ **Assignment 9:**  From Class Diagrams to Code with All Creational Patterns
+
+1. Implement the classes in your preferred language (Java, Python, C#, etc.).
+
+Created all enums:
+•	ContentType
+•	UserRole
+•	AccountStatus
+•	CourseStatus
+
+All model classes:
+•	User
+•	Course
+•	Lesson
+•	Content
+•	Quiz
+•	Question
+•	Progress
+
+Each class includes:
+•	Private attributes
+•	Getters/setters
+•	Core methods from the diagram
+•	Proper relationships through composition/association
+
+# AWS Learning Platform
+
+[View Implementation Details](Implementation.md)
