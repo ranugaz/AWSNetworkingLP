@@ -124,7 +124,7 @@ Each class includes:
 
 You can view the implementation details in two ways:
 - [View Implementation Documentation](ideaProjects/aws-learning-platform/Implementation.md)
-- [View Complete Project Implementation](ideaProjects/aws-learning-platform)
+- [View Complete Project Implementation](AWSNetworkingLP/IdeaProjects/aws-learning-plartform/)
 
 The complete implementation includes:
 - Source code
