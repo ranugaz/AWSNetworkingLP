@@ -100,19 +100,7 @@ Files:
 ## 1. Implemented the classes in your Java language
 
 Created all enums:
--	ContentType
--	UserRole
--	AccountStatus
--	CourseStatus
-
 All model classes:
--	User
--	Course
--	Lesson
--	Content
--	Quiz
--	Question
--	Progress
 
 Each class includes:
 -	Private attributes
@@ -207,5 +195,10 @@ All pattern implementations can be found in the `src/main/java/com/awslearning/c
 
 ## 3. Unit Testing
 
-
+### Running Tests
+Tests can be run in multiple ways:
+1. Individual test methods: Click green play button next to method
+2. Class level: Run all tests in a specific test class
+3. Package level: Run all tests for a specific pattern
+4. All tests: Run entire test suite using Maven (`mvn test`)
 
