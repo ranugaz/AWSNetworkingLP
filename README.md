@@ -123,7 +123,7 @@ Each class includes:
 ## Implementation Details, Directories and Files for Assignment 10
 
 You can view the implementation details in two ways:
-- [View Implementation Documentation](ideaProjects/aws-learning-platform/Implementation.md)
+- [View Implementation Documentation](/IdeaProjects/aws-learning-plartform/Implementation.md)
 - [View Complete Project Implementation](/IdeaProjects/aws-learning-plartform/)
 
 The complete implementation includes:
