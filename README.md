@@ -97,7 +97,7 @@ Files:
 
  **Assignment 10:**  From Class Diagrams to Code with All Creational Patterns
 
-1. Implemented the classes in your Java language
+## 1. Implemented the classes in your Java language
 
 Created all enums:
 -	ContentType
@@ -131,3 +131,81 @@ The complete implementation includes:
 - Documentation
 - Project structure
 - Test cases
+
+## 2. Creational Pattern Implementation
+
+## Creational Patterns Implementation
+
+### 1. Simple Factory Pattern
+- **Implementation**: `ContentFactory` for creating different types of learning content
+- **Justification**: Centralizes the creation of content objects (PDF, Video, Text) and encapsulates the instantiation logic
+- **Benefits**:
+  - Simplifies content creation process
+  - Provides a single point of content object creation
+  - Makes content type creation consistent across the application
+
+### 2. Factory Method Pattern
+- **Implementation**: `QuizFactory` hierarchy for creating different types of quizzes
+- **Justification**: Different quiz types (Multiple Choice, Practical) require different implementation logic
+- **Benefits**:
+  - Allows adding new quiz types without modifying existing code
+  - Each quiz type can have its own creation logic
+  - Maintains single responsibility principle
+
+### 3. Abstract Factory Pattern
+- **Implementation**: `LearningResourceFactory` for creating families of related learning resources
+- **Justification**: Need to create consistent sets of learning resources (Basic or Advanced) that work together
+- **Benefits**:
+  - Ensures compatibility between related learning resources
+  - Supports complete resource level isolation (Basic vs Advanced)
+  - Easy to add new resource families
+
+### 4. Builder Pattern
+- **Implementation**: `CourseBuilder` for constructing complex Course objects
+- **Justification**: Course creation involves many optional parameters and complex setup
+- **Benefits**:
+  - Handles complex object construction step by step
+  - Makes optional parameters easy to handle
+  - Creates readable course construction code
+  - Ensures valid course object state
+
+### 5. Prototype Pattern
+- **Implementation**: `CourseTemplate` for cloning existing course templates
+- **Justification**: Creating new courses from scratch is resource-intensive, and many courses share similar structures
+- **Benefits**:
+  - Reduces duplicate course setup code
+  - Makes course creation more efficient
+  - Allows for template-based course creation
+  - Supports quick course customization
+
+### 6. Singleton Pattern
+- **Implementation**: `DatabaseConnectionManager` for managing database connections
+- **Justification**: Need to ensure single point of control for database operations
+- **Benefits**:
+  - Ensures single database connection manager instance
+  - Provides global access point
+  - Controls resource usage
+  - Centralizes database operation coordination
+
+## Pattern Selection Rationale
+Each pattern was chosen to address specific challenges in the AWS Learning Platform:
+- **Simple Factory**: For basic object creation
+- **Factory Method**: For extensible object families
+- **Abstract Factory**: For creating compatible resource sets
+- **Builder**: For complex object construction
+- **Prototype**: For efficient object cloning
+- **Singleton**: For resource management
+
+## Implementation Location
+All pattern implementations can be found in the `src/main/java/com/awslearning/creational_patterns` directory:
+- `simple_factory/`
+- `factory_method/`
+- `abstract_factory/`
+- `builder/`
+- `prototype/`
+- `singleton/`
+
+## 3. Unit Testing
+
+
+
