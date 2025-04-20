@@ -185,13 +185,15 @@ Each pattern was chosen to address specific challenges in the AWS Learning Platf
 - **Singleton**: For resource management
 
 ## Implementation Location
-All pattern implementations can be found in the `src/main/java/com/awslearning/creational_patterns` directory:
-- `simple_factory/`
-- `factory_method/`
-- `abstract_factory/`
-- `builder/`
-- `prototype/`
-- `singleton/`
+All creational design patterns implementations can be found in the [creational patterns directory](IdeaProjects/aws-learning-plartform/src/main/java/com/awslearning/creational_patterns).
+
+### Pattern-Specific Implementations:
+- [Simple Factory](IdeaProjects/aws-learning-plartform/src/main/java/com/awslearning/creational_patterns/simple_factory)
+- [Factory Method](IdeaProjects/aws-learning-plartform/src/main/java/com/awslearning/creational_patterns/factory_method)
+- [Abstract Factory](IdeaProjects/aws-learning-plartform/src/main/java/com/awslearning/creational_patterns/abstract_factory)
+- [Builder](IdeaProjects/aws-learning-plartform/src/main/java/com/awslearning/creational_patterns/builder)
+- [Prototype](IdeaProjects/aws-learning-plartform/src/main/java/com/awslearning/creational_patterns/prototype)
+- [Singleton](IdeaProjects/aws-learning-plartform/src/main/java/com/awslearning/creational_patterns/singleton)
 
 ## 3. Unit Testing
 
