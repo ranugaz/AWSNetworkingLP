@@ -195,6 +195,8 @@ All pattern implementations can be found in the `src/main/java/com/awslearning/c
 
 ## 3. Unit Testing
 
+There's /tests directory with test cases for all patterns.
+
 ### Running Tests
 Tests can be run in multiple ways:
 1. Individual test methods: Click green play button next to method
