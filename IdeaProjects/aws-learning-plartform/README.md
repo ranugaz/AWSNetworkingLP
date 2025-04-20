@@ -95,9 +95,9 @@ Files:
 •⁠  ⁠Class_Diagram.md
 •⁠  ⁠Reflection.md (Updated)
 
-*Assignment 9:*  From Class Diagrams to Code with All Creational Patterns
+*Assignment 10:*  From Class Diagrams to Code with All Creational Patterns
 
-1.⁠ ⁠Implement the classes in your preferred language (Java, Python, C#, etc.).
+1.⁠ ⁠Implement the classes in preferred language (Java)
 
 Created all enums:
 •⁠  ⁠ContentType
@@ -120,6 +120,14 @@ Each class includes:
 •⁠  ⁠Core methods from the diagram
 •⁠  ⁠Proper relationships through composition/association
 
-# AWS Learning Platform
+## Implementation Details Directories and Files for Assignment 10
 
-[View Implementation Details](Implementation.md)
+You can view the implementation details in two ways:
+- [View Implementation Documentation](ideaProjects/aws-learning-platform/Implementation.md)
+- [View Complete Project Implementation](ideaProjects/aws-learning-platform)
+
+The complete implementation includes:
+- Source code
+- Documentation
+- Project structure
+- Test cases
