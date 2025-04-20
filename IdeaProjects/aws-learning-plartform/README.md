@@ -123,8 +123,8 @@ Each class includes:
 ## Implementation Details Directories and Files for Assignment 10
 
 You can view the implementation details in two ways:
-- [View Implementation Documentation](AWSNetworkingLP/IdeaProjects/aws-learning-platform/Implementation.md)
-- [View Complete Project Implementation](AWSNetworkingLP/IdeaProjects/aws-learning-platform)
+- [View Implementation Documentation](/IdeaProjects/aws-learning-platform/Implementation.md)
+- [View Complete Project Implementation](/IdeaProjects/aws-learning-platform)
 
 The complete implementation includes:
 - Source code
