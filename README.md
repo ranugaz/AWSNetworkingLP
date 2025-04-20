@@ -97,7 +97,7 @@ Files:
 
  **Assignment 10:**  From Class Diagrams to Code with All Creational Patterns
 
-1. Implement the classes in your preferred language (Java, Python, C#, etc.).
+1. Implemented the classes in your Java language
 
 Created all enums:
 -	ContentType
