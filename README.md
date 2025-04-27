@@ -281,6 +281,7 @@ CourseRepository courseRepo = RepositoryFactory.getCourseRepository("MEMORY");
 
 // Future database implementation
 CourseRepository dbRepo = RepositoryFactory.getCourseRepository("DATABASE");
+```
 
 ## Future Storage Implementations
 
