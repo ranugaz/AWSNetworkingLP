@@ -205,3 +205,79 @@ Tests can be run in multiple ways:
 - Class level: Run all tests in a specific test class
    Package level: Run all tests for a specific pattern
 
+ **Assignment 11:** : Implementing a Persistence Repository Layer
+
+## Repository Layer Implementation
+
+### Repository Interface Design
+The repository layer implements a generic repository pattern to provide consistent data access across different entities.
+
+#### Base Repository Interface
+- Generic interface `Repository<T, ID>` defines standard CRUD operations
+- Type parameters:
+  - `T`: Entity type (e.g., Course, User, Content)
+  - `ID`: Identifier type (e.g., String, Long)
+
+#### Entity-Specific Repositories
+1. **CourseRepository**
+   - Extends base repository for Course entities
+   - Additional methods for course-specific queries
+   - Supports searching by instructor and difficulty level
+
+2. **UserRepository**
+   - Manages user data persistence
+   - Includes email-based lookup
+   - Supports filtering by user role
+
+3. **ContentRepository**
+   - Handles learning content storage
+   - Supports content type filtering
+   - Course-specific content retrieval
+
+### Design Decisions
+1. **Generic Repository Pattern**
+   - Reduces code duplication
+   - Ensures consistent CRUD operations
+   - Enables type-safe operations
+
+2. **Optional Return Types**
+   - Uses Java's Optional for null-safety
+   - Clearer API contract for existence checks
+   - Better exception handling
+
+3. **Extended Interfaces**
+   - Entity-specific repositories add custom methods
+   - Maintains single responsibility principle
+   - Allows for specialized queries
+
+### Implementation Location
+Repository interfaces can be found in the [repositories directory](IdeaProjects/aws-learning-plartform/src/main/java/com/awslearning/repositories).
+
+## Storage Abstraction Mechanism
+
+### Factory Pattern Implementation
+The project uses the Factory Pattern for repository creation and storage abstraction for the following reasons:
+
+#### Why Factory Pattern over Dependency Injection?
+1. **Simplified Configuration**: Factory pattern provides centralized object creation without requiring a DI container
+2. **Runtime Flexibility**: Allows switching storage implementations at runtime
+3. **Encapsulated Creation Logic**: Storage-specific details are hidden from client code
+4. **Future Extensibility**: Easy to add new storage types without modifying existing code
+
+#### Implementation Details
+- `RepositoryFactory` provides static methods for creating repositories
+- Supports multiple storage types:
+  - In-Memory (current implementation)
+  - Database (future implementation)
+- Factory methods for each repository type:
+  - `getCourseRepository()`
+  - `getUserRepository()`
+  - `getContentRepository()`
+
+#### Usage Example
+```java
+// Get in-memory repository
+CourseRepository courseRepo = RepositoryFactory.getCourseRepository("MEMORY");
+
+// Future database implementation
+CourseRepository dbRepo = RepositoryFactory.getCourseRepository("DATABASE");
