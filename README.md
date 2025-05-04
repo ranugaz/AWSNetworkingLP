@@ -311,3 +311,22 @@ The system is designed to support future database storage implementation through
    - Read/Write splitting
    - Sharding support
    - Backup/Recovery mechanisms
+
+ **Assignment 11:** : Service Layer and REST API Implementation
+
+### Added
+- REST API implementation with Spring Boot
+- Course management endpoints
+- User management endpoints
+- Swagger API documentation
+- Integration tests for API endpoints
+
+### Technical Details
+- Added Spring Boot dependencies
+- Implemented REST controllers
+- Added Swagger configuration
+- Created API documentation
+
+### API Documentation
+Swagger UI is available at: http://localhost:8080/swagger-ui/
+
