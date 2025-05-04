@@ -312,7 +312,7 @@ The system is designed to support future database storage implementation through
    - Sharding support
    - Backup/Recovery mechanisms
 
- **Assignment 11:** : Service Layer and REST API Implementation
+ **Assignment 12:** : Service Layer and REST API Implementation
 
 ### Added
 - REST API implementation with Spring Boot
