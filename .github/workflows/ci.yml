@@ -1,4 +1,4 @@
-name: CI Pipeline
+name: CI/CD Pipeline
 
 on:
   push:
@@ -8,7 +8,8 @@ on:
 
 permissions:
   checks: write
-  contents: read
+  contents: write
+  packages: write
 
 jobs:
   build-and-test:
@@ -24,15 +25,28 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
-    - name: Cache Maven packages
-      uses: actions/cache@v3
-      with:
-        path: ~/.m2
-        key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
-        restore-keys: ${{ runner.os }}-m2
-
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
-    - name: Run Tests
-      run: mvn test
+    - name: Create Release
+      if: github.ref == 'refs/heads/main' # Only run on main branch
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: v${{ github.run_number }}
+        release_name: Release v${{ github.run_number }}
+        draft: false
+        prerelease: false
+
+    - name: Upload Release Asset
+      if: github.ref == 'refs/heads/main' # Only run on main branch
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./target/learning-platform-1.0-SNAPSHOT.jar
+        asset_name: learning-platform.jar
+        asset_content_type: application/java-archive
