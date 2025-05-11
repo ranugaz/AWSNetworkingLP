@@ -336,7 +336,7 @@ Swagger UI is available at: http://localhost:8080/swagger-ui/
 ## CI/CD Pipeline Documentation
 
 ### CI/CD Pipeline Workflow
-Our pipeline implements the following workflow:
+The pipeline implements the following workflow:
 
 1. **Continuous Integration (CI)**
    - Triggers on every push and pull request
