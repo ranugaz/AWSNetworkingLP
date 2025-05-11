@@ -330,3 +330,36 @@ The system is designed to support future database storage implementation through
 ### API Documentation
 Swagger UI is available at: http://localhost:8080/swagger-ui/
 
+
+ **Assignment 13: Implementing CI/CD with GitHub Actions** 
+
+## CI/CD Pipeline Documentation
+
+### CI/CD Pipeline Workflow
+Our pipeline implements the following workflow:
+
+1. **Continuous Integration (CI)**
+   - Triggers on every push and pull request
+   - Builds the project using Maven
+   - Runs all unit tests
+   - Blocks PR merging if tests fail
+
+2. **Continuous Deployment (CD)**
+   - Activates only on main branch
+   - Creates a new release with version number
+   - Builds and uploads JAR artifact
+   - Generates release documentation
+
+3. **Branch Protection**
+   - Main branch is protected
+   - Requires pull request reviews
+   - Requires CI checks to pass
+   - Prevents direct pushes to main
+
+### Pull Request Process
+1. Create a new branch for your feature
+2. Make your changes and commit
+3. Create a pull request to main
+4. Wait for CI checks to complete
+5. Address any review comments
+6. Merge once approved and all checks pass
