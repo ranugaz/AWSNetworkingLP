@@ -64,3 +64,10 @@ As the project evolves, we will:
 1. Add required status checks once CI/CD pipeline is implemented
 2. Adjust review requirements based on team size and needs
 3. Implement additional security measures as needed
+
+# Branch Protection Ruleset Justification
+
+## Current Configuration Screenshot
+![Branch Protection Rules](./images/branch-protection-rules.png)
+
+[Rest of your PROTECTION.md content...]
