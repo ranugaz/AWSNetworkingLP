@@ -69,5 +69,3 @@ As the project evolves, we will:
 
 ## Current Configuration Screenshot
 ![Branch Protection Rules](./images/)
-
-[Rest of your PROTECTION.md content...]
