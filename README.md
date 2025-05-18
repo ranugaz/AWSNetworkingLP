@@ -360,7 +360,7 @@ The pipeline implements the following workflow:
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/AWSNetworkingLP.git`
+1. Clone the repository: `git clone [https://github.com/your-username/AWSNetworkingLP.git](https://github.com/ranugaz/AWSNetworkingLP)`
 2. Follow the setup instructions in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 3. Start exploring the issues labeled as `good first issue`.
 
