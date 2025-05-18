@@ -10,23 +10,29 @@
     <packaging>jar</packaging>
 
     <name>AWSNetworkingLP</name>
-    <description>A Learning Platform for AWS Networking Services</description>
-
-    <properties>
-        <java.version>11</java.version> <!-- Ensure you are using Java 11 -->
-    </properties>
+    <url>http://maven.apache.org</url>
 
     <dependencies>
-        <!-- Swagger dependencies -->
+        <!-- Spring Boot dependencies -->
         <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger2</artifactId>
-            <version>2.9.2</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger-ui</artifactId>
-            <version>2.9.2</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Swagger dependencies (Springfox 2.x or Springdoc OpenAPI) -->
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+            <version>1.6.9</version>
         </dependency>
 
         <!-- JUnit 5 dependencies -->
@@ -43,32 +49,30 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Maven dependencies for Spring Boot and other required libraries -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
-
-        <!-- Add any other dependencies your project needs here -->
+        <!-- Other dependencies (e.g., for project specific needs) -->
+        <!-- Add any other required dependencies here -->
 
     </dependencies>
 
     <build>
         <plugins>
+            <!-- Maven Compiler Plugin for Java 11 (or your version) -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
+                    <source>11</source>
+                    <target>11</target>
                 </configuration>
+            </plugin>
+
+            <!-- Maven Surefire Plugin for running tests -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.2</version>
             </plugin>
         </plugins>
     </build>
-
 </project>
