@@ -1,4 +1,4 @@
-name: CI Pipeline
+name: CI/CD Pipeline
 
 on:
   push:
@@ -21,3 +21,12 @@ jobs:
 
       - name: Build and test
         run: mvn clean test
+
+      - name: Build release artifact
+        run: mvn package
+
+      - name: Upload release artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: AWSNetworkingLP.jar
+          path: target/AWSNetworkingLP-1.0-SNAPSHOT.jar
