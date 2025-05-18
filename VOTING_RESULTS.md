@@ -13,4 +13,3 @@ Voting was conducted through the shared class platform (e.g., WhatsApp). Classma
 - Issues were well-labeled and helpful for new contributors.
 - Clear future goals listed in `ROADMAP.md`.
 - One peer suggested adding screenshots or a demo video to the README.
-- Another suggested using GitHub Discussions or a Gitter/Discord channel for better collaboration.
