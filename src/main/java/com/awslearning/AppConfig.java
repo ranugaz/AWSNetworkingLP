@@ -1,4 +1,4 @@
 package com.awslearning;
 
-public class config {
+public class AppConfig {
 }
