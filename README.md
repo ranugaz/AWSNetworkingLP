@@ -369,7 +369,7 @@ The pipeline implements the following workflow:
 | Feature | Description | Label |
 | --- | --- | --- |
 | User Data Encryption | Encrypt user data at rest | [enhancement](https://github.com/ranugaz/AWSNetworkingLP/labels/enhancement) |
-| Course Content Creation | Create and manage course content | enhancement |
-| Search Functionality | Improve search functionality for AWS networking courses | enhancement |
-| Take Quizzes | Implement quiz functionality | good first issue |
-| Enroll in Courses | Allow users to enroll in courses | good first issue |
+| Course Content Creation | Create and manage course content | [enhancement](https://github.com/ranugaz/AWSNetworkingLP/labels/enhancement) |
+| Search Functionality | Improve search functionality for AWS networking courses | [enhancement](https://github.com/ranugaz/AWSNetworkingLP/labels/enhancement) |
+| Take Quizzes | Implement quiz functionality | [good first issue] https://github.com/ranugaz/AWSNetworkingLP/labels/good%20first%20issue |
+| Enroll in Courses | Allow users to enroll in courses | [good first issue ](https://github.com/ranugaz/AWSNetworkingLP/labels/good%20first%20issue)|
