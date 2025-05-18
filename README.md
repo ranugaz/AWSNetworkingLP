@@ -356,10 +356,20 @@ The pipeline implements the following workflow:
    - Requires CI checks to pass
    - Prevents direct pushes to main
 
-### Pull Request Process
-1. Create a new branch for your feature
-2. Make your changes and commit
-3. Create a pull request to main
-4. Wait for CI checks to complete
-5. Address any review comments
-6. Merge once approved and all checks pass
+ **Assignment 14: Peer Review, Onboarding,and Open-Source Collaboration**
+## Getting Started
+
+1. Clone the repository: `git clone https://github.com/your-username/AWSNetworkingLP.git`
+2. Follow the setup instructions in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+3. Start exploring the issues labeled as `good-first-issue`.
+
+## Features for Contribution
+
+| Feature | Description | Issue |
+| --- | --- | --- |
+| User Data Encryption | Encrypt user data at rest | [US011](link-to-issue) |
+| Course Content Creation | Create and manage course content | [US007](link-to-issue) |
+| Search Functionality | Improve search functionality for AWS networking courses | [US001](link-to-issue) |
+| Quiz System | Develop a more comprehensive quiz system |  |
+| Mobile App | Develop a mobile app for on-the-go learning |  |
+
