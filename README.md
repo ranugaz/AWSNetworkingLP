@@ -357,19 +357,19 @@ The pipeline implements the following workflow:
    - Prevents direct pushes to main
 
  **Assignment 14: Peer Review, Onboarding,and Open-Source Collaboration**
+
 ## Getting Started
 
 1. Clone the repository: `git clone https://github.com/your-username/AWSNetworkingLP.git`
 2. Follow the setup instructions in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
-3. Start exploring the issues labeled as `good-first-issue`.
+3. Start exploring the issues labeled as `good first issue`.
 
 ## Features for Contribution
 
-| Feature | Description | Issue |
+| Feature | Description | Label |
 | --- | --- | --- |
-| User Data Encryption | Encrypt user data at rest | [US011](link-to-issue) |
-| Course Content Creation | Create and manage course content | [US007](link-to-issue) |
-| Search Functionality | Improve search functionality for AWS networking courses | [US001](link-to-issue) |
-| Quiz System | Develop a more comprehensive quiz system |  |
-| Mobile App | Develop a mobile app for on-the-go learning |  |
-
+| User Data Encryption | Encrypt user data at rest | enhancement |
+| Course Content Creation | Create and manage course content | enhancement |
+| Search Functionality | Improve search functionality for AWS networking courses | enhancement |
+| Take Quizzes | Implement quiz functionality | good first issue |
+| Enroll in Courses | Allow users to enroll in courses | good first issue |
