@@ -147,9 +147,28 @@ This exercise has taught me several valuable lessons about object-oriented desig
 
     This experience has definitely improved my approach to system design, and I will carry these lessons forward into future projects. Most importantly, I've learned that good design is an iterative process - it's okay to revise and refine as understanding of the system grows.
 
+**Assignment 14 Reflections:**
+
+*How I Improved My Repository Based on Peer Feedback*
+
+Receiving feedback from my classmates really helped me improve the repository. At first, the documentation wasn’t as clear as it could be. Some of my peers mentioned that it wasn’t easy to get started with the project because there weren’t enough details on how to set it up or contribute. Based on that, I updated the README file to provide a more thorough explanation of the project’s purpose, as well as a clear guide on how to set up the development environment and run the application. This made it easier for anyone who wanted to contribute to understand the project quickly.
+
+Another suggestion from my peers was to improve the code structure and make it more modular. There were parts of the code that were difficult to follow, so I spent time refactoring those areas. This made the code cleaner and more maintainable, not just for me but for anyone who might work on the project in the future.
+
+*Challenges in Onboarding Contributors*
+
+Since this is a school project and we are all in the same class, onboarding contributors wasn’t as complicated as it would be for an open-source project with people from all over the world. However, one challenge I faced was making sure that everyone understood how to contribute and where they could help. Some classmates were unsure about where to start, so I made sure to label tasks as “good first issues” and organized the project better so that new contributors could easily find ways to get involved.
+
+*⁠Lessons Learned About Open-Source Collaboration*
+
+One of the biggest lessons I learned about open-source collaboration was how important communication and organization are. Although this project was for school, the principles are the same. Having clear documentation and a structured workflow was essential for making sure everyone knew what to do and how to do it. I also realized how valuable it is to make newcomers feel welcome, even if they’re just classmates. Providing them with tasks that align with their skill levels helps build confidence and keeps the project moving forward.
+
+Another lesson I learned was the importance of giving and receiving feedback. As a project maintainer, I had to make sure that I communicated what changes were needed without discouraging contributors. It’s important to be specific and offer suggestions for improvement rather than just pointing out issues. On the flip side, I also had to learn to take constructive criticism without feeling defensive. We all want the project to be the best it can be, and learning to collaborate effectively makes it a smoother process.
 
 ## Conclusion
 
 Balancing diverse stakeholder needs in the AWS Networking Services Learning Platform has been challenging. However, by adopting flexible strategies, prioritizing effectively, I can create a platform that addresses core needs while remaining adaptable to future changes and requirements.
 
-overall, despite the challenges, it was quite a great learning experience about using agile.
+In the end, I learned that open-source collaboration is not just about coding but about creating a community. Even in a small, class-based project like ours, the same principles apply. Clear communication, well-defined goals, and mutual respect make the collaboration more enjoyable and productive for everyone involved.
+
+Overall, despite the challenges, it was quite a great learning experience about using agile.
